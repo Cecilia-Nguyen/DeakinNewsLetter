@@ -45,6 +45,6 @@ if (port == null || port == "") {
   port = 8080;
 }
 
-app.listen(6000, (req,res)=>{
+app.listen(8000, (req,res)=>{
     console.log("Server is running successfullly!")
 })
